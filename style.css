@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+}
+
+header, .main-visual, main, footer {
+  font-family: Arial、Helvetica、sans-serif
+}
+
+header {
+  width: 100%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkgreen;
+}
+
+header .heading{
+   font-size: 35px;
+   }
+
+header .heading a{
+  color: #fff;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 25px;
+  color: #fff;
+}
+
+.main-visual {
+  width: 100%;
+  height: 600px;
+  background-image: url(photo/log-cabin-g399819016_640.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  width: 100%;
+  height: 600px;
+  background-color: rgba( 0, 0, 0, 0.2);
+  padding: 50px;
+}
+
+.main-visual-text1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.main-visual-text2 {
+  color: #fff;
+  font-size: 20px;
+  padding-top: 280px;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.news-heading{
+  border-bottom: 20px solid beige;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0;
+  color: black;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.news-box {
+  padding: 50px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.news-image {
+  height: 250px
+}
+
+.news-title {
+  text-align: center;
+  color: black;
+}
+
+.news-message {
+  padding: 20px;
+}
+
+.room-heading, .meal-heading, .info-heading, .access-heading, .reserve-heading {
+  border-bottom: 20px solid beige;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0;
+  color: black;
+  width: 10%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.room-box, .meal-box,.info-box {
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.room-item, .meal-item, .info-item {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.room-image, .meal-image, .info-image {
+  height: 180px;
+  width: 250px;
+}
+
+.room-text, .meal-text, .info-text {
+  padding-left: 30px;
+}
+
+.room-text-heading, .meal-text-heading, .info-text-heading {
+  padding-bottom: 15px;
+  color: black;
+}
+
+.room-introduction, .meal-introduction, .info-introduction {
+  font-size: 15px;
+}
+
+.access-box {
+  padding: 50px 0 50px 0;
+  width: 100%;
+  display: flex;
+}
+
+.access-info {
+  width: 70%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.access-label, .reserve-label {
+  font-weight: bold;
+  color: black;
+}
+
+.reserve-box {
+  padding: 20px 0 50px 0;
+}
+
+.Email {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #acabab;
+  margin: 0 auto;
+  width: 250px
+}
+
+.Email-title {
+  text-align: center;
+  font-weight: bold;
+  color:black
+}
+
+.tel, .fax {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: darkgreen;
+}
+
+.footer-text {
+  color: #fff;
+}
